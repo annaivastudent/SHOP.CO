@@ -1,5 +1,9 @@
 # SHOP.CO
 
+Live Demo: https://shop-co-dusky.vercel.app/
+
+GitHub Repository: https://github.com/annaivastudent/SHOP.CO
+
 SHOP.CO is a modern fashion landing page built with React and Vite. The website features a stylish design with fashion collections, new arrivals, promotional offers, and an interactive shopping cart counter.
 
 ## Features
@@ -66,7 +70,7 @@ SHOP.CO/
 1. Clone the repository:
 
    ```bash
-   git clone YOUR_REPOSITORY_URL
+   git clone https://github.com/annaivastudent/SHOP.CO.git
    ```
 
 2. Navigate to the project directory:
