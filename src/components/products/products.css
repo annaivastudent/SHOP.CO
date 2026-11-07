@@ -1,0 +1,120 @@
+.cards-products {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  justify-content: center;
+}
+.title-block {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 50px;
+  letter-spacing: 6%;
+  color: #000000;
+  margin-top: 29px;
+  margin-bottom: 39px;
+}
+.mark {
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+}
+.mark::after {
+  content: "";
+  position: absolute;
+  left: 15%;
+  bottom: 5px;
+  width: 85%;
+  height: 55%;
+  z-index: -1;
+  background: url("data:image/svg+xml,%3Csvg width='186' height='35' viewBox='0 0 186 35' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 24C28 9 118 2 184 6C187 15 150 30 90 33C48 35 14 33 0 24Z' fill='%23EBD96B'/%3E%3C/svg%3E")
+    no-repeat center / 100% 100%;
+}
+.product-image {
+  width: 240px;
+  height: 350px;
+  border-radius: 20px;
+}
+.cards-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+.cards-text {
+  width: 200px;
+}
+.cards-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #191919;
+  margin: 0px;
+}
+.cards-subheading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 50px;
+  letter-spacing: -4%;
+  color: #7f7f7f;
+  margin: 0px;
+}
+.card-price {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #191919;
+  margin: 0px;
+}
+.btns-cards {
+  display: flex;
+  justify-content: center;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.btns-cards button {
+  width: 40px;
+  height: 30px;
+  background: #f5f5f5;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 1px solid #e5e5e5;
+}
+.btns-cards p {
+  margin: 0;
+  width: 40px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+#change-btn-1 {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+#change-btn-2 {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.btn-arrow {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #ebd96b;
+  background-image: url("../../img/products/arrow.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-arrow:hover {
+  background-color: #f4ce32;
+  transform: translateX(5px);
+}

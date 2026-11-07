@@ -1,0 +1,56 @@
+.download-block {
+  display: flex;
+  gap: 100px;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.download-left-block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 507px;
+  height: 382px;
+  justify-content: center;
+}
+.mobile-pic {
+  width: 300px;
+  height: 500px;
+}
+.download-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 150%;
+  letter-spacing: 6%;
+  margin: 0px;
+}
+.download-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: -4%;
+  color: #7c7c7c;
+  margin: 0px;
+}
+.aps-btns {
+  display: flex;
+  gap: 10px;
+}
+.appstore-btn {
+  all: unset;
+  cursor: pointer;
+}
+.appstore-btn img {
+  width: 170px;
+  height: 60px;
+}
+.playmarket-btn {
+  all: unset;
+  cursor: pointer;
+}
+.playmarket-btn img {
+  width: 170px;
+  height: 60px;
+}

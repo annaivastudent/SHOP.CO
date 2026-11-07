@@ -1,0 +1,99 @@
+.ads-block {
+  margin-top: 50px;
+  background: linear-gradient(
+    1.32deg,
+    #e0c340 0.13%,
+    #dfc23e 3.97%,
+    #e1c441 7.2%,
+    #e3c743 10.13%,
+    #e4c542 12.98%,
+    #e6c744 15.99%,
+    #e7c845 19.52%,
+    #e5c643 23.96%,
+    #e6c945 30.43%,
+    #e3c743 36.49%,
+    #e9ca48 42.49%,
+    #edce49 49.35%,
+    #f0d44c 55.42%,
+    #f4d84f 61.43%,
+    #f6da52 65.74%,
+    #f7db53 72.23%,
+    #f9dd55 77.43%,
+    #f9df56 83.84%,
+    #fae157 91.52%,
+    #f9df56 97.87%
+  );
+  gap: 100px;
+  height: 500px;
+  display: flex;
+}
+.ads-pic {
+  height: 100%;
+}
+.ads-right-block {
+  width: 350px;
+  margin-top: 80px;
+}
+.ads-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: #000000;
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: 0%;
+  margin: 0px;
+}
+.ads-heading span {
+  display: table;
+  width: 200px;
+  line-height: 60px;
+  transform: skewY(-2deg);
+  background-color: #ffffff;
+}
+.ads-subheading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: -2%;
+  color: #231300;
+  margin: 0px;
+  margin-top: 15px;
+}
+.ads-main-text {
+  margin-top: 15px;
+}
+.ads-main-text p {
+  margin: 0px;
+}
+#ads-main-text-1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 2%;
+}
+
+#ads-main-text-2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 2%;
+}
+.btn-ads {
+  width: 110px;
+  height: 50px;
+  background-color: #000000;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.btn-ads p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -5%;
+  color: #ffffff;
+  margin: 0px;
+}

@@ -1,0 +1,57 @@
+.nav-bar {
+  max-width: 1920px;
+  padding: 10px 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 62px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.logo {
+  width: 170px;
+  height: auto;
+  flex-shrink: 0;
+}
+.nav-bar-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 54px;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 1%;
+  color: #242323;
+}
+.basket {
+  width: 60px;
+  height: 32px;
+  border-radius: 7px;
+  background-image: url("../../img/navigation/basket.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ebd96b;
+  padding: 0px;
+  margin: 0px;
+}
+.count {
+  margin: 0px;
+  padding-top: -20px;
+  padding-left: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  list-style: none;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 1%;
+  color: #242323;
+}

@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1920px;
+  padding: 10px 100px;
+  margin: 0 auto;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
